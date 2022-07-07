@@ -13,9 +13,10 @@ HTML serves as the frame for how a website will be delivered. There is some cust
 
 While implementing HTML you can use various commands to make content appear to take the parameters of “defined” HTML tags. An example of this is the following code, 
 
+```html
+<span> style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+```
 
-    <span> style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
- 
 Will display the below text
 
 <span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>

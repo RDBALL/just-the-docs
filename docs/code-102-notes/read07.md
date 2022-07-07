@@ -19,6 +19,7 @@ The **optional** parameters *inclosed with ()* after the function name can give 
 
 Example of a Javascript function with variables:
 
+```javascript
     function multiplyNumbers(price, shipping) {
     //Return the sum
         return price*shipping;
@@ -28,7 +29,7 @@ Example of a Javascript function with variables:
     var product=multiplyNumbers(22, 2);
 
     console.log(product)
-
+```
 This example has a `function` named `multiplyNumbers`. This function contains the parameters `(price, shipping)` and it ends with a `{`
 
 Next we add the code we want the function to execute. For this example we want the code to `return price*shipping;` this will return the value of price multiplied by shipping. This function is then closed with `}` following the code that the function will execute.
@@ -39,6 +40,7 @@ Javascript can be linked in the head of your html document with
 
 And then a function within your javascript file such as:
 
+```javascript
     function likeCardio(){  
         let usersChoice = prompt("do you like cardio?");
    
@@ -48,7 +50,10 @@ And then a function within your javascript file such as:
         document.write("not a fan of cardio? that's alright, feel free to look around and maybe check out strength");
     }
 }
+```
 
 Can be called (invoked) with a script in your HTML file where you want the code to display in your HTML page such as:
 
+```html
     <script>likeCardio();</script>
+```

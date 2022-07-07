@@ -27,11 +27,13 @@ A while loop executes the block again and again for as long as the resulting con
 
 Here is one example of a simple while loop
 
-    let counter = 1;
-    while (counter <= 10) {
-      console.log(counter);
-      counter = counter + 1;
-    }
+```javascript
+let counter = 1;
+  while (counter <= 10) {
+    console.log(counter);
+    counter = counter + 1;
+  }
+```
 
 This loop will continuously iterate until “counter” is less than or equal to 10
 
@@ -39,9 +41,11 @@ For loops share the same purpose of while loops but they will not loop through t
 
 Here is how a for loop is structured
 
-     for (statement 1; statement 2; statement 3) {
-      // code block to be executed
-    }
+```javascript
+for (statement 1; statement 2; statement 3) {
+    // code block to be executed
+}
+```
 
 * **Statement 1** is executed (one time) before the execution of the code block.
 * **Statement 2** defines the condition for executing the code block.
@@ -49,9 +53,11 @@ Here is how a for loop is structured
 
 Here is an example of a for loop
 
-    for (let i = 0; i < 5; i++) {
-      text += "The number is " + i + "<br>";
-    }
+```javascript
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+```
 
 * Statement 1 sets a variable before the loop starts (let i = 0).
 

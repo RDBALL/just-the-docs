@@ -12,9 +12,9 @@ Terms:
 
 CSS allows you to add style to the structure (HTML) of a webpage. The styles.css file can be placed within the same directory of your index.html file and can be linked (activated) through a link 
 
-
-> `<link rel="stylesheet" href="styles.css">`
-
+```markdown
+<link rel="stylesheet" href="styles.css">
+```
 
 
 The above code would be placed within the <head> of the HTML document that you would like to stylize. 
@@ -37,17 +37,18 @@ Styles follow the below syntax
 
 An example for modifying text that has a class of "navigation"
 
-> `.navigation {`  
-          `font-family: 'Goldman', cursive;`  
-        `font-size: 30px;`  
-        `font-weight: bold;`  
-        `color:white;`  
-        `display: flex;`  
-        `justify-content:space-evenly;`  
-        `align-items: center;`  
-        `padding: 30px 10%;`  
-`}`
-
+```css
+.navigation {  
+  font-family: 'Goldman', cursive;  
+  font-size: 30px; 
+  font-weight: bold; 
+  color: white; 
+  display: flex; 
+  justify-content: space-evenly;  
+  align-items: center;  
+  padding: 30px 10%;  
+}
+```
 What can you style with CSS?
 
 From W3 schools:
