@@ -43,7 +43,7 @@ Example: `9` is a number
 
 Variables in JavaScript are similar to variables in mathematics. They allow the coder to assign certain values to specific variables. You can assign strings, numbers, arrays, booleans, and objects to variables to enable dynamic JavaScript content to be delivered to the user.
 
-Answers sourced from (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+Answers sourced from [Mozilla Developer Getting Started with the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 
 
 # Introduction to HTML
@@ -86,9 +86,9 @@ The `<meta>` tag is contained within the head of your HTML document and is used 
 
 Sources:
 
-(https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+[Mozilla Developer HTML and Website Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
 
-(https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+[Mozilla Developer Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 
 
 # How to start to design a Website
