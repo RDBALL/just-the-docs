@@ -10,9 +10,9 @@ parent: Code 201 Notes
 
 A Haiku following the 5-7-5 format:
 
-> *user types keyword  
+> *user types cat pic  
 data sent to server cloud  
-funny pic of cat*
+cat picture sent back*
 
 ## Describe how HTML, CSS, and JavaScript files are “parsed” in the browser.
 
