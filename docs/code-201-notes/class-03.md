@@ -71,7 +71,7 @@ What data types can you store inside of an Array?
  ```
 
 This is a valid array. To validate the array I used the command `Array.IsArray(people)`
-after entering the array into my console. Below is a screenshot showing the Array.IsArray command returning true 
+after entering the array into my console. Below is a screenshot showing the Array.IsArray command returning true
 
 ![Screenshot of Array Validation](https://i.imgur.com/TeO5Hdg.jpg)
 
@@ -92,7 +92,7 @@ after entering the array into my console. Below is a screenshot showing the Arra
 
  // evaluate this
  (a + c) + b;
-	(10+false(0)) + dog
+(10+false(0)) + dog
   ```
 
 The answer is 10dog. This is because expressions are evaluated left to right so the first thing to be evaluated would be 10+false. Because false evaluates to 0 in JavaScript this leaves us with 10+dog. This will return a value of 10dog
