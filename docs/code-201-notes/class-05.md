@@ -67,7 +67,6 @@ You would use a `<figure>` if you are going to include an image, illustration or
 
 I would use a PNG due to maintaining more data fidelity than a JPG.
 
-
 ## Using Color in CSS. Styling HTML Text Elements
 
 ### Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge
@@ -92,7 +91,7 @@ If you imagine the webpage as s multilayered plane the background color elements
 * `font-weight:` will adjust the stroke width of each typed character. This will cause characters to look thicker or ‘bold’
 * `font-style:` will add simple styling designs to your text such as underlined or strikethrough.
 
-### Describe two ways you could add spacing around the characters displayed in an h1 element.
+### Describe two ways you could add spacing around the characters displayed in an h1 element
 
 * You can use the `letter-spacing:` property along with a type of measurement to add whitespace between typed characters
 * You can use the `line-height:` property to add additional whitespace above and below the identified element characters
