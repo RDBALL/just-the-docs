@@ -6,7 +6,7 @@ parent: Code 201 Notes
 
 ## Local Storage and How To Use It On Websites
 
-###Why would a developer use local storage for a web application?
+### Why would a developer use local storage for a web application?
 
 * LocalStorage allows for basic persistence on your website. It's commonly used to keep data that would be convenient for the user to see even if the browser was refreshed. For example, many forms save a user's input in LocalStorage until it is submitted.
 * 
