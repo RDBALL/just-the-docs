@@ -4,119 +4,70 @@ title: Code 301 | Class 01
 parent: Code 301 Notes
 ---
 
-# Getting Started
+# Intro to React and Components
 
-### Compose a short poem describing how HTTP sends data between computers.
+## Reading
 
-A Haiku following the 5-7-5 format:
+[Component-Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
 
-> *user types cat pic  
-data sent to server cloud  
-cat picture sent back*
+### What is a “component”?
 
-### Describe how HTML, CSS, and JavaScript files are “parsed” in the browser.
+* A react component is a small element that is used to establish a specific piece of an app or website. Think of it as a single lego piece that can be modified without needing to completely tear down and reconstruct the overall lego model
 
-When a person establishes a connection to a website their browser needs to know exactly what type of information to return as a readable webpage. To make this happen the browser will first look for an HTML document that will contain the building block instructions for how the website should be structured.
+### What are the characteristics of a component?
 
-While parsing the HTML page the browser will take note of any tags that would instruct the browser to look for identified CSS styling or JavaScript code to be executed. These are identified in HTML as either a `<link>` tag for linking a stylesheet to the html document or a `<script>` tag that causes JavaScript to be called or invoked.
+* Reusability − Components are usually designed to be reused in different situations in different applications. However, some components may be designed for a specific task.
 
-When the HTML document has been read by the browser, identified stylesheets were applied and any JavaScript is  executed the browser will then fully display the website as it is intended to be viewed.
+* Replaceable − Components may be freely substituted with other similar components.
 
-### How can you find images to add to a Website?
+* Not context specific − Components are designed to operate in different environments and contexts.
 
-* Images can be found on stock image sites that will either list the image as free to use (with commercial restrictions) or available for purchase. 
+* Extensible − A component can be extended from existing components to provide new behavior.
 
-* You can search through google and use google's search tools to explicitly return image results that hold a creative common license. This type of license may still require attribution. 
- 
-* You can always take your own pictures or create your own graphic designs!
+* Encapsulated − A component depicts the interfaces, which allow the caller to use its functionality, and do not expose details of the internal processes or any internal variables or state.
 
+* Independent − Components are designed to have minimal dependencies on other components.
 
-### How do you create a String vs a Number in JavaScript?
+### What are the advantages of using component-based architecture?
 
-A string in JavaScript is depicted as a word encapsulated in quotation marks.
-Example: `'This is a string'`
+* Ease of deployment − As new compatible versions become available, it is easier to replace existing versions with no impact on the other components or the system as a whole.
 
-A number in JavaScript is a numeral not inside of quotation marks.
-Example: `9` is a number
+* Reduced cost − The use of third-party components allows you to spread the cost of development and maintenance.
 
-### What is a Variable and why are they important in JavaScript?
+* Ease of development − Components implement well-known interfaces to provide defined functionality, allowing development without impacting other parts of the system.
 
-Variables in JavaScript are similar to variables in mathematics. They allow the coder to assign certain values to specific variables. You can assign strings, numbers, arrays, booleans, and objects to variables to enable dynamic JavaScript content to be delivered to the user.
+* Reusable − The use of reusable components means that they can be used to spread the development and maintenance cost across several applications or systems.
 
-Answers sourced from [Mozilla Developer Getting Started with the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+* Modification of technical complexity − A component modifies the complexity through the use of a component container and its services.
 
+* Reliability − The overall system reliability increases since the reliability of each individual component enhances the reliability of the whole system via reuse.
 
-## Introduction to HTML
+* System maintenance and evolution − Easy to change and update the implementation without affecting the rest of the system.
 
-### What is an HTML attribute?
+* Independent − Independency and flexible connectivity of components. Independent development of components by different groups in parallel. Productivity for software development and future software development.
 
-An attribute is HTML that is not visually displayed on a rendered webpage but contained inside of various HTML tags. Attributes can contain information such as pointing to a URL, adding a class or adding an id to a specific portion of HTML to be referenced in a connected stylesheet.
+## [What is Props and How to Use it in React](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0#:~:text=%E2%80%9CProps%E2%80%9D%20is%20a%20special%20keyword,way%20from%20parent%20to%20child)
 
-### Describe the Anatomy of an HTML element.
+### What is “props” short for?
 
-An HTML element will begin with an opening `<tag>` followed by any necessary attributes before listing the content to be displayed. The element is then closed with a closing `</tag>`
+* Props is short for properties
 
+### How are props used in React?
 
-### What is the Difference between `<article>` and `<section>` element tags?
+* Props pass data from one component to another
 
-Articles are used when the content within the `<article>` tag is meant to be able to be shown on its own or in its own context. A `<section>` is used when a page needs to be divided in a way that would benefit from the inclusion of multiple sections. An example for the inclusion of a `<section>` tag could be to identify multiple sections of one inclusive piece of content. In this example there would be `<article>` tags within the `<section>` tags.
+### What is the flow of props?
 
-### What Elements does a “typical” website include?
+* Props have a one directional flow
 
-From Mozilla Developer a typical website includes:
+Bookmark and Review
 
-* Header
-* Navigation bar
-* Main content
-* Sidebar
-* Footer
+[React Tutorial through ‘Passing Data Through Props’](https://reactjs.org/tutorial/tutorial.html)
 
-### How does metadata influence Search Engine Optimization?
+[React Docs - Hello world](https://reactjs.org/docs/hello-world.html)
 
-**From MDN**
+[React Docs - Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 
-> Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines (such activities are termed Search Engine Optimization, or SEO.)
+[React Docs - Rendering elements](https://reactjs.org/docs/rendering-elements.html)
 
-### How is the <meta> HTML tag used when specifying metadata?
-
-The `<meta>` tag is contained within the head of your HTML document and is used for a variety of functions. Two examples that the `<meta>`  tag can be used for:
-
-* `<meta charset="UTF-8">` specifies character encoding for the HTML document
-* `<meta name=”author” content=”Name”>` holds the page authors name using the `<content>` attribute
-
-Sources:
-
-[Mozilla Developer HTML and Website Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-
-[Mozilla Developer Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-
-
-## How to start to design a Website
-
-### What is the first step to designing a Website?
-
-The first step of designing a website is to identify what type of content you would like to display and create a wireframe diagram showing the initial structure of how you would like the website to be rendered.
-
-### What is the most important question to answer when designing a Website?
-
-The most important question to answer is to figure out what you are actually trying to accomplish. This will allow you to backwards plan to ensure that your desired endstate will be met.
-
-## Semantics
-
-### Why should you use an `<h1>` element over a `<span>` element to display a top level heading?
-
-An `<h1>` tag is specifically designed to help structure your HTML in an easy to read / digest manner. Recreating the look of an `<h1>` tag using a `<span>` tag can be done but it does not conform to a well structured HTML document.
-
-### What are the benefits of using semantic tags in our HTML?
-
-Semantic tags allow HTML to be more easily read as the tags will generally explain in simple words what their exact purpose is within the HTML document.
-
-## What is JavaScript?
-
-### Describe 2 things that require JavaScript in the Browser.
-
-Any element that requires content to be dynamically generated. Two examples are displaying an image based off of user input or implementing a prompt that will then call additional functions following user input.
-
-### How can you add JavaScript to an HTML document?
-
-You can add JavaScript to an HTML document by including a `<script>` tag within the HTML document where you want a JavaScript function to be called.
+[React Docs - Components and props](https://reactjs.org/docs/components-and-props.html)
