@@ -4,7 +4,7 @@ title: Code 301 | Class 08
 parent: Code 301 Notes
 ---
 
-# [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+## [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 
 ### What does REST stand for?
 
@@ -32,7 +32,7 @@ parent: Code 301 Notes
 
 * URIs should be based on nouns
 
-### Give an example of a good URI.
+### Give an example of a good URI
 
 ```ts
       userinfo       host      port
@@ -71,4 +71,3 @@ Bookmark and Review
 [Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 
 [Regex 101](https://regex101.com/)
-
