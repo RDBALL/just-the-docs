@@ -9,7 +9,7 @@ parent: Code 401 Notes
 [AWS API Gateway Overview](https://www.serverless.com/amazon-api-gateway)
 
 * What is Amazon API Gateway?
-  * Amazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs at any scale. 
+  * Amazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs at any scale.
 * Why is Amazon API Gateway an important part of the Serverless ecosystem?
   * The Amazon API Gateway enables the serverless functions to be tied to the API definitions
 * How does API Gateway integrate with other AWS services?
@@ -34,11 +34,11 @@ parent: Code 401 Notes
 [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
 
 * Explain to a non-technical friend how DynamoDB works.
-  * DynamoDB is a serverless database that is available for applications that need scalability and speed. Specifically, this DB provides read capabilities at speeds equaling to 1 response per second of highly accurate data. This can be increased to multiple responses per second of not as accurate data. 
+  * DynamoDB is a serverless database that is available for applications that need scalability and speed. Specifically, this DB provides read capabilities at speeds equaling to 1 response per second of highly accurate data. This can be increased to multiple responses per second of not as accurate data.
 
 [Dynamoose](https://dynamoosejs.com/getting_started/Introduction)
 
 * What is Dynamoose?
-  * Dynamoose is a tool that can be used like mongoose for creating data but specific to DynamoDB 
+  * Dynamoose is a tool that can be used like mongoose for creating data but specific to DynamoDB
 * What are some key features of Dynamoose?
-  * Support for multiple AWS regions, high level API, supports DynamoDB single table design 
+  * Support for multiple AWS regions, high level API, supports DynamoDB single table design
